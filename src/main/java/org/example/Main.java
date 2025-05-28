@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Selecione o arquivo! ");
         File CSV_FILE = FileSelector.selectFile();
 
-        System.out.println("Favor selecione o cliente conforme planilha: ");
+        System.out.println("Digite o nome do cliente conforme planilha: ");
         String cliente = scanner.nextLine();
 
         Map<String, Registro> registros = new HashMap<>();
