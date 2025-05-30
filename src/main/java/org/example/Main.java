@@ -15,7 +15,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         String userHome = System.getProperty("user.home");
-        String CSV_FILE_OUT = userHome + File.separator + "Área de trabalho" + File.separator + "Relatorio.csv";
+        String CSV_FILE_OUT = userHome + File.separator + "Área de trabalho" + File.separator + "Relatorio.csv"; //No linux
+//        String CSV_FILE_OUT = userHome + File.separator + "Desktop" + File.separator + "Relatorio.csv"; //No Windows
 
         System.out.println("Selecione o arquivo! ");
         File CSV_FILE = FileSelector.selectFile();
