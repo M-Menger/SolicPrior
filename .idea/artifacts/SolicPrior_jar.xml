@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="SolicPrior:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SolicPrior_jar</output-path>
+    <root id="root">
+      <element id="archive" name="SolicPrior.jar">
+        <element id="module-output" name="SolicPrior" />
+      </element>
+    </root>
+  </artifact>
+</component>
